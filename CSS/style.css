@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Comfortaa Bold';
+}
+.container{
+max-width: 1160px;
+margin-left: auto;
+margin-right: auto;
+}
+.header{
+    min-height: 80vh;
+    background-image: url(../images/IT_CENTER.jpg);
+    background-size: auto;
+    background-size: 100%;
+    background-position: center,center;
+}
+.header ul{
+    list-style-type: none;
+}
+.menu-btn{
+    margin: 0;
+    padding: 0;
+}
+.menu-btn ul{
+    display: none;
+}
+.menu-btn li:hover ul{
+    display: block;
+}
+.menu-btn a:hover{
+    color: blue;
+}
+.menu-btn a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
+.tillar{
+    padding: 47px 0px 0px 1000px ;
+}
+.til{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.IT{
+    font-size: 2.3vw;
+    text-align: center;
+    padding-top: 230px;
+    font-family: 'Comfortaa Bold';
+    margin-bottom: 105px;
+    color: white;
+}
+.header2{
+    text-align: center;
+    line-height: 25px;
+    border: solid 1px #7bc24d;
+    border-radius: 10px;
+    background-color:#eee;
+    padding: 10px 20px 50px 20px;
+    color: black;
+    margin-top: 100px;
+    box-shadow: 0 15px 10px 2px rgb(204 204 204 / 50%);  
+}
+.header2 h3{
+    font-size: 20px;
+    color: #7bc24d;
+    line-height: 70px;
+}
+.header2 p{
+    opacity: 60%;
+}
+.main img{
+    width: 120px;
+}
+.main h2{
+    padding-top: 10px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+}
+.one h2{  
+     color: #7bc24d; 
+}
+.one p{
+    opacity: 60%;
+    font-size: 14px;
+    line-height: 22px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+}
+.two p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.bir{
+    width: 560px;
+    border: solid 1px #7bc24d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 18px;
+    box-shadow: 0 15px 10px 2px rgb(204 204 204 / 50%);
+    transition: transform 0.4s ease;
+}
+.bir:hover{
+    transform: scale(1.1);
+}
+.bir-a{
+    text-align: center;
+    color:#7bc24d ;
+}
+.bir-div{
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+.ikki{
+    width: 560px;
+    border: solid 1px #7bc24d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+    box-shadow: 0 15px 10px 2px rgb(204 204 204 / 50%);
+    transition: transform 0.4s ease;
+}
+.ikki:hover{
+    transform: scale(1.1);
+}
+.uch{
+    width: 560px;
+    border: solid 1px ;
+    border-radius: 10px;
+    background-color: #1f6a95;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-right: 18px;
+    box-shadow: 0 15px 10px 2px rgb(204 204 204 / 50%);
+    transition: transform 0.4s ease;
+}
+.uch:hover{
+    transform: scale(1.1);
+}
+.tort{
+    width: 560px;
+    border: solid 1px ;
+    border-radius: 10px;
+    background-color: #545BA5;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 18px;
+    box-shadow: 0 15px 10px 2px rgb(204 204 204 / 50%);
+    transition: transform 0.4s ease;
+}
+.tort:hover{
+    transform: scale(1.1);
+}
+.margin-a{
+    margin: 30px 0px 15px 0px;
+}
+.barcha-a-1{
+    text-decoration: none;
+    color: white;
+    background-color: #606064;
+    font-style: 14px;
+    padding: 9px 233px;
+    border-radius: 4px;
+}
+.barcha-a{
+    text-decoration: none;
+    color: #1f6a95;
+    background-color: white;
+    font-style: 14px;
+    padding: 9px 233px;
+    border-radius: 4px;
+}
+.barcha-a-2{
+    text-decoration: none;
+    color: #1f6a95;
+    background-color: white;
+    font-style: 14px;
+    padding: 9px 202px;
+    border-radius: 4px;
+}
+.header-menu{
+    background-color:#7dba28;
+}
+.end-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    padding: 20px 0px 80px 0px;
+}
+.end-header h2{
+    margin-bottom: 15px;
+}
+.end-header a:hover{
+    text-decoration: underline;
+}
+.contack{
+width: 250px;
+margin-right: 50px;
+color: white;
+line-height: 25px;
+}
+.further{
+    display: flex;
+    flex-direction: column;
+    margin-right: 280px;
+    color: white;
+    line-height: 25px;
+}
+.contack  a{
+text-decoration: none;
+color: white;
+}
+.further a{
+text-decoration: none;
+color: white;
+}
